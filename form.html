@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel ="stylesheet" href="Style.css">
+  </head>
+  <body>
+     <header class="top_view">
+      <nav class = "link">
+      <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Form.html">Create Account</a></li>
+        <li><a href="table.html">Courses </a> </li>
+        <li><a href="media.html">About Me</a> </li>
+      </ul>
+      </nav>
+    </header>
+    <main id = "mainContainer">
+      <h1>Signup</h1>
+      <p>Take the next steps to apply at AltSchool Africa.</p>
+      <form>
+        <fieldset>
+          <!--Input for Firstname-->
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter first name"
+          />
+          <!--Input for Last name-->
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Enter last name"
+          /><br /><br />
+          <!--Input for Gender-->
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+          <!--Input for Date of Birth-->
+          <label for="DOB">Date of Birth</label>
+          <input type="date" id="DOB" name="DOB" /><br /><br />
+          <!--Input for Email Address-->
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" />
+          <!--Input for Phone Number-->
+          <label for="phone">Phone number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="08154387000"
+          /><br /><br />
+          <!--Input for Country-->
+          <label for="country"> Country </label>
+          <select id="country" name="country">
+            <option value="">Select your country</option>
+            <option value="NGR">Nigeria</option>
+            <option value="GHA">Ghana</option>
+          </select>
+          <!--Input for State/City of Residence-->
+          <label for="Residence">State/City of Residence</label>
+          <input
+            type="text"
+            id="Residence"
+            name="Residence"
+            placeholder="Enter your state of residence"/>
+            
+          <br /><br />
+          <!-- Input for How did you hear about Us?-->
+          <label for="About_Us">How did you hear about Us?</label>
+          <select id="About_US" name="About_Us">
+            <option value="">Select Channel</option>
+            <option value="TW">Twitter</option>
+            <option value="FB">Facebook</option>
+            <option value="LI">LinkedIn</option>
+            <option value="YT">Youtube</option>
+            <option value="FR">Friend</option>
+            <option value="WH">WhatsApp</option>
+            <option value="IN">Instagram</option>
+            <option value="BI">BillBoard</option></select
+          ><br /><br />
+          <!-- Password-->
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" name="pwd" />
+          <!--Confirm Password-->
+          <label for="pwd">Confirm Password</label>
+          <input type="password" id="confirm_pwd" name="confirm_pwd" />
+          <br /><br />
+          <p>
+            By clicking continue, I agree to Terms of Use and acknowledge that I
+            have read the Privacy Policy
+          </p>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

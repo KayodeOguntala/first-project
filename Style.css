@@ -1,0 +1,59 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 2.0;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+/* Header Styling */
+#top{
+  background-color:#ffffff;
+  color: #f8f4ee;
+  padding: 10px;
+  text-align: center;
+}
+.top_view{
+  background-color:#ffffff;
+  color: #f8f4ee;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Link Styling*/
+.link ul {
+ list-style-type: none; 
+ display: flex; 
+ justify-content: center;
+ padding: 10px;
+}
+nav ul li {
+  margin-right: 10px; 
+}
+
+/*Main Container */
+#mainContainer{
+ max-width: 600px;
+  margin: 0;
+  padding: 20px;;
+  background-color: white;
+  border-radius: 8px;
+}
+/* Form styles 
+form {padding: 20px;;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom:15px;
+  max-width:600px;
+}
+
+
+
+
