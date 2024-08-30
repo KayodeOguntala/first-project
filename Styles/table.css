@@ -5,10 +5,9 @@ body {
   background-color: white;
   color: #333;
   margin: 20px;
-  
 }
 /* Header Styling */
-#top{
+#top {
   background-color: #003366;
   padding: 10px;
   text-align: center;
@@ -33,31 +32,31 @@ a {
   color: white;
 }
 
-main{
-    flex:1;
-    min-height:100vh;
+main {
+  flex: 1;
+  min-height: 100vh;
 }
-table{
-    width: 100%;
-      margin: 20px auto;
-      border-collapse: collapse;
-      border: 1px solid black;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+table {
+  width: auto;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-Caption{
-    font-weight:bold;
+Caption {
+  font-weight: bold;
 }
-#Courses{
-    border:0;
+#Courses {
+  border: 0;
 }
-th,td{
-    background-color: white;
-   text-align: justify;
-    border: 1px solid black;
-   
+th,
+td {
+  background-color: white;
+  text-align: justify;
+  border: 1px solid black;
 }
 
 footer {
   background-color: #003366;
-  color:white;
+  color: white;
 }
