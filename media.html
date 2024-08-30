@@ -4,23 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-      <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="/Styles/media.css" />
   </head>
   <body>
-      <header class="top_view">
-      <nav class = "link">
-              <ul> 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="form.html">Create Account</a></li>
-        <li><a href="table.html">Courses </a> </li>
-        <li><a href="media.html">About Me</a> </li>
-      </ul>
+    <header id="top">
+      <nav class="link">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Create Account</a></li>
+          <li><a href="table.html">Courses </a></li>
+          <li><a href="media.html">About Me</a></li>
+        </ul>
       </nav>
     </header>
-   <picture>
-<source src="./Photo.jpg" media="" >
-</picture>
+    <main class="main_container">
+      <section class="content_wrapper">
+        <picture class="responsive_image">
+          <!-- Desktop image: applied when screen width is 1024px or wider -->
+          <source srcset="/Assets/kayphoto1024.jpg" media="(min-width:1024px)" />
+          <!-- Laptop image: applied when screen is between 600px and 1023px -->
+          <source srcset="/Assets/kayphoto640.jpg"media="(min-width:600px)" />
+          <!-- Mobile image:To be applied when screen width is less than 600px -->
+          <img src="/Assets/Kayphoto300.jpg" alt="Responsive Image" />
+        </picture>
 
-    
+        <div class="personal_introduction">
+          <h2>Hello, my name is Kayode Oguntala.</h2>
+          I am a seasoned IT Project Manager
+          with a strong background in technical expertise, and I am also an
+          aspiring software engineer aiming to deepen my understanding of
+          software development.
+        </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
