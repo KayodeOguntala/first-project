@@ -5,9 +5,10 @@ body {
   background-color: white;
   color: #333;
   margin: 20px;
+  
 }
 /* Header Styling */
-#top {
+#top{
   background-color: #003366;
   padding: 10px;
   text-align: center;
@@ -30,4 +31,12 @@ nav ul li {
 }
 a {
   color: white;
+}
+
+form{
+width: 50%;
+padding:2%;
+}
+.form_link{
+color:blue;
 }
