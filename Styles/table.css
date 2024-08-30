@@ -5,10 +5,10 @@ body {
   background-color: white;
   color: #333;
   margin: 20px;
+  
 }
-
 /* Header Styling */
-#top {
+#top{
   background-color: #003366;
   padding: 10px;
   text-align: center;
@@ -33,29 +33,31 @@ a {
   color: white;
 }
 
-.main_container {
-  padding: 2%;
-  background-color: #e9f2fb;
-  border-radius: 1%;
+main{
+    flex:1;
+    min-height:100vh;
 }
-.personal_information_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 2% 0;
+table{
+    width: 100%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border: 1px solid black;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+Caption{
+    font-weight:bold;
+}
+#Courses{
+    border:0;
+}
+th,td{
+    background-color: white;
+   text-align: justify;
+    border: 1px solid black;
+   
 }
 
-.personal_information_text {
-  width: 60%;
-}
-.personal_image {
-  max-width: 35%;
-  height: auto;
-}
-#copyright{
-Color:white;
-
-}
 footer {
   background-color: #003366;
+  color:white;
 }
