@@ -1,11 +1,9 @@
 /* Body Styling*/
 body {
   font-family: Arial, sans-serif;
-  line-height: 2;
+  line-height: 1.6;
   background-color: white;
   color: #333;
-  margin: 20px;
-  
 }
 
 /* Header Styling */
@@ -27,9 +25,11 @@ nav ul li {
   margin-right: 10px;
 }
 
-.link:hover {
-  text-decoration: underline;
+nav ul li a:hover {
+  color: red;
+  text-decoration: none;
 }
+
 a {
   color: white;
 }
@@ -38,13 +38,13 @@ a {
   padding: 2%;
   background-color: #e9f2fb;
   border-radius: 1%;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 }
 .personal_information_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 2% 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .personal_information_text {
@@ -54,10 +54,12 @@ a {
   max-width: 35%;
   height: auto;
 }
-#copyright{
-Color:white;
 
+#copyright {
+  color: white;
 }
 footer {
   background-color: #003366;
+  color: white;
+  padding: 10px;
 }

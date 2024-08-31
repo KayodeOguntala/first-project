@@ -5,7 +5,6 @@ body {
   background-color: #f4f4f4;
   /*background-image:url(/Assets/bgimagewhite.jpg);*/
   color: #333;
-  margin: 20px;
 }
 
 /* Header Styling */
@@ -27,9 +26,11 @@ nav ul li {
   margin-right: 10px;
 }
 
-.link:hover {
+nav ul li a:hover {
+  color: red;
   text-decoration: underline;
 }
+
 a {
   color: white;
 }
@@ -43,19 +44,20 @@ a {
 .content_wrapper {
   display: flex;
   align-items: center;
-  gap: 20px; 
-  flex-wrap: wrap; 
-  border-radius: 50%;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .personal_introduction {
   padding: 20px;
-  flex: 1; 
+  flex: 1;
 }
 
 /* Responsive Image Styling */
 .responsive_image {
-  flex: 0 1 400px; 
+  flex: 0 1 400px;
 }
 
 .responsive_image img {
@@ -66,20 +68,44 @@ a {
 /* Interests and Hobbies Styling */
 .interests_hobbies {
   margin-top: 10px;
-  padding:20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hobbies_container {
- display:flex;
- gap:20px;
+  display: flex;
+  gap: 20px;
 }
-.hobbies_container video{
-  flow:1;
+.hobbies_container video {
+  flex: 1;
   max-width: 100%;
-  height:auto;
-  max-height:200px;
+  height: auto;
+  max-height: 200px;
 }
 
 h2 {
   color: #003366;
+}
+.favourites {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.audio_container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.graduation {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.graduation img {
+  height: 20em;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
 }
