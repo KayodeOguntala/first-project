@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
-  /*background-image:url(/Assets/bgimagewhite.jpg);*/
   color: #333;
 }
 
@@ -74,8 +73,16 @@ a {
 
 .hobbies_container {
   display: flex;
-  gap: 20px;
-  margin-bottom:20px;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .hobbies_container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .hobbies_container video {
   flex: 1;
