@@ -1,8 +1,9 @@
 /* Body Styling */
 body {
   font-family: Arial, sans-serif;
-  line-height: 2.0;
+  line-height: 1.6;
   background-color: #f4f4f4;
+  /*background-image:url(/Assets/bgimagewhite.jpg);*/
   color: #333;
   margin: 20px;
 }
@@ -32,55 +33,53 @@ nav ul li {
 a {
   color: white;
 }
-
 .main_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1200px;
+  margin: auto;
   padding: 20px;
 }
 
+/* Content Wrapper Styling */
 .content_wrapper {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 20px; 
-}
-
-.responsive_image img {
-  max-width: 100%;
-  height: auto;
+  flex-wrap: wrap; 
+  border-radius: 50%;
 }
 
 .personal_introduction {
-  max-width: 600px; 
-  font-family: Arial, sans-serif;
-  font-size: 1.0rem;
+  padding: 20px;
+  flex: 1; 
 }
 
-@media (max-width: 600px) {
-  .content_wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+/* Responsive Image Styling */
+.responsive_image {
+  flex: 0 1 400px; 
 }
 
-/*Main Container
-#mainContainer{
- max-width: 600px;
-  margin: 0;
-  padding: 20px;;
-  background-color: white;
-  border-radius: 8px;
-}
-/* Form styles 
-form {padding: 20px;;
-  background-color: white;
-  border-radius: 8px;
-  margin-bottom:15px;
-  max-width:600px;
+.responsive_image img {
+  width: 100%;
+  height: auto;
 }
 
+/* Interests and Hobbies Styling */
+.interests_hobbies {
+  margin-top: 10px;
+  padding:20px;
+}
 
+.hobbies_container {
+ display:flex;
+ gap:20px;
+}
+.hobbies_container video{
+  flow:1;
+  max-width: 100%;
+  height:auto;
+  max-height:200px;
+}
 
-
+h2 {
+  color: #003366;
+}

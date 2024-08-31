@@ -21,20 +21,60 @@
       <section class="content_wrapper">
         <picture class="responsive_image">
           <!-- Desktop image: applied when screen width is 1024px or wider -->
-          <source srcset="/Assets/kayphoto1024.jpg" media="(min-width:1024px)" />
-          <!-- Laptop image: applied when screen is between 600px and 1023px -->
-          <source srcset="/Assets/kayphoto640.jpg"media="(min-width:600px)" />
-          <!-- Mobile image:To be applied when screen width is less than 600px -->
-          <img src="/Assets/Kayphoto300.jpg" alt="Responsive Image" />
+          <source
+            srcset="/Assets/kayphoto1024.jpg"
+            media="(min-width:1024px)"
+          />
+          <!-- Laptop image: applied when screen is between 768px and 1023px -->
+          <source srcset="Assets/Kayphoto768.jpg" media="(min-width:768px)" />
+          <!-- Mobile image:To be applied when screen wis between 480px and 767px-->
+          <source srcset="/Assets/Kayphoto480.jpg" media="(min-width:480px)" />
+          <img src="/Assets/kayphoto.jpg" alt="Resposive image" />
         </picture>
 
         <div class="personal_introduction">
           <h2>Hello, my name is Kayode Oguntala.</h2>
-          I am a seasoned IT Project Manager
-          with a strong background in technical expertise, and I am also an
-          aspiring software engineer aiming to deepen my understanding of
-          software development.
-        </p>
+          <p>
+            I am a seasoned IT Project Manager with a robust foundation in
+            technical expertise, honed over years of managing complex projects
+            in dynamic environments. My experience spans both agile and
+            traditional project management methodologies, where I have
+            successfully led cross-functional teams, delivered high-impact
+            solutions, and navigated the intricacies of the financial and
+            digital sectors.In addition to my established career in project
+            management, I am also an aspiring software engineer driven by a
+            passion for technology and innovation. I am committed to deepening
+            my understanding of software development, with a focus on building
+            customer-centric solutions that not only meet business goals but
+            also enhance user experiences.
+          </p>
+        </div>
+      </section>
+
+      <!--Interests and Hobbies-->
+      <section class="interests_hobbies">
+        <h2>Hobbies & Interests</h2>
+        <div class="hobbies_container">
+          <video width="600" controls>
+            <source src="/Assets/Father_Son.mp4" type="video/mp4" />
+          </video>
+          <video width="600" controls>
+            <source src="/Assets/Footballvideo.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div id="Description">
+          <p>
+            Family time is incredibly important to me. I cherish the moments
+            spent with my loved ones, whether we're enjoying a meal together,
+            embarking on weekend adventures, or simply sharing stories and
+            laughter at home. These moments are the foundation of my happiness
+            and well-being. They provide me with a sense of belonging and
+            support, and they help me maintain a healthy work-life balance. I
+            believe that nurturing these relationships is essential for personal
+            growth and a fulfilling life. Additionally, I enjoy playing football
+            with friends during my leisure time, which adds another layer of
+            enjoyment and social connection to my life.
+          </p>
         </div>
       </section>
     </main>
